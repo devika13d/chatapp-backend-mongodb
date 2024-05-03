@@ -1,7 +1,8 @@
 const bcrypt = require("bcrypt");
 const jwt = require('jsonwebtoken')
 
-const User = require('/ChatApp/devend/models/userSchema')
+const User = require('../../../models/userSchema')
+
 
 exports.signUp = async (req, res) => {
     // res.status(200).json('Signup user')
