@@ -3,7 +3,7 @@ const chatController = require('../controllers/chatController')
 const sendController=require('../controllers/sendController')
 
 const { getUsers } = require('../controllers/userController')
-const jwtMiddleware=require('/ChatApp/devend/middlewares/jwtMiddleware.js')
+const jwtMiddleware=require('../middlewares/jwtMiddleware')
 
 const express = require('express')
 
